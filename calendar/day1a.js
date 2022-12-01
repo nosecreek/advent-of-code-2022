@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 const day1a = () => {
-  const input = fs.readFileSync('./inputs/day1a.txt', 'utf8')
+  const input = fs.readFileSync('./inputs/day1.txt', 'utf8')
 
   const elves = input.split(/\n\n/)
   const totals = elves.map((elf) =>
