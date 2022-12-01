@@ -1,0 +1,21 @@
+{
+  "name": "advent-of-code-2022",
+  "version": "1.0.0",
+  "description": "AOC 2022 Solutions from Dustin Lammiman",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "js-tokens": "^4.0.0",
+    "loose-envify": "^1.4.0",
+    "object-assign": "^4.1.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-bootstrap-icons": "^1.8.4",
+    "react-is": "^16.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dustin Lammiman",
+  "license": "ISC"
+}
