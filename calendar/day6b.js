@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-const day5a = () => {
+const day6b = () => {
   const input = fs.readFileSync('./inputs/day6.txt', 'utf8')
   let br = false
 
@@ -16,4 +16,4 @@ const day5a = () => {
   }
 }
 
-module.exports = day5a
+module.exports = day6b
