@@ -30,7 +30,7 @@ const day13b = () => {
       }
     }
     return compareLists(a, b) ? -1 : 1
-  }, 0)
+  })
 
   return (
     (sorted.findIndex((x) => JSON.stringify(x) === '[[2]]') + 1) *
