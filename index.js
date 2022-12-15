@@ -27,7 +27,8 @@ const days = {
   day13b: require('./calendar/day13b'),
   day14a: require('./calendar/day14a'),
   day14b: require('./calendar/day14b'),
-  day15a: require('./calendar/day15a')
+  day15a: require('./calendar/day15a'),
+  day15b: require('./calendar/day15b')
 }
 
 const dayToRun = days?.[process.argv[2]] || days[Object.keys(days).pop()]
