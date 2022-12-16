@@ -1,5 +1,4 @@
 const fs = require('fs')
-const { connect } = require('http2')
 
 const day16a = () => {
   const input = fs.readFileSync('./inputs/day16.txt', 'utf8')
